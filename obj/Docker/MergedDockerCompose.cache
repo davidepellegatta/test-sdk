@@ -1,0 +1,7 @@
+services:
+  test-sdk:
+    build:
+      context: /Users/davidepellegatta/Projects/test-sdk
+      dockerfile: test-sdk/Dockerfile
+    image: testsdk
+version: '3.4'

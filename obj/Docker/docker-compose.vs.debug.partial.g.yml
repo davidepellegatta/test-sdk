@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  test-sdk:
+    image: testsdk:dev
+    container_name: test-sdk
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "test-sdk"
+    #environment:
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_test-sdk$
+    volumes:
+      - /Users/davidepellegatta/Projects/test-sdk/test-sdk:/app
+      - /Users/davidepellegatta/vsdbg/vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_test-sdk$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_test-sdk$ \"/app/bin/Debug/netcoreapp3.1/test-sdk.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
