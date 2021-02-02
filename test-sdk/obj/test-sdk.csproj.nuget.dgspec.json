@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/davidepellegatta/Projects/test-sdk/test-sdk/test-sdk.csproj": {}
+  },
+  "projects": {
+    "/Users/davidepellegatta/Projects/test-sdk/test-sdk/test-sdk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davidepellegatta/Projects/test-sdk/test-sdk/test-sdk.csproj",
+        "projectName": "test-sdk",
+        "projectPath": "/Users/davidepellegatta/Projects/test-sdk/test-sdk/test-sdk.csproj",
+        "packagesPath": "/Users/davidepellegatta/.nuget/packages/",
+        "outputPath": "/Users/davidepellegatta/Projects/test-sdk/test-sdk/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davidepellegatta/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "CouchbaseNetClient": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

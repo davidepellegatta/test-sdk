@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  test-sdk:
+    image: ${DOCKER_REGISTRY-}testsdk
+    build:
+      context: .
+      dockerfile: test-sdk/Dockerfile

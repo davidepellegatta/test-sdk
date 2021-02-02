@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "GsPiA850pxBg4htLoKiY9Q8PvLc1AGyFXiGi+RSYubXqR8Q77Q+Fi6YuG5GouXS4+9J6B0Snygs03CTDxwDafQ==",
+  "success": true,
+  "projectFilePath": "/Users/davidepellegatta/Projects/test-sdk/test-sdk/test-sdk.csproj",
+  "expectedPackageFiles": [
+    "/Users/davidepellegatta/.nuget/packages/couchbasenetclient/3.1.1/couchbasenetclient.3.1.1.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/dnsclient/1.3.2/dnsclient.1.3.2.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.configuration/3.0.0/microsoft.extensions.configuration.3.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.configuration.abstractions/3.0.0/microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.configuration.binder/3.0.0/microsoft.extensions.configuration.binder.3.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.dependencyinjection/3.0.0/microsoft.extensions.dependencyinjection.3.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.0.0/microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.logging/3.0.0/microsoft.extensions.logging.3.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.logging.abstractions/3.0.0/microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.objectpool/5.0.1/microsoft.extensions.objectpool.5.0.1.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.options/3.0.0/microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/microsoft.extensions.primitives/3.0.0/microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/nlog/4.7.6/nlog.4.7.6.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/nlog.extensions.logging/1.7.0/nlog.extensions.logging.1.7.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/system.linq.async/4.0.0/system.linq.async.4.0.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.0/system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
+    "/Users/davidepellegatta/.nuget/packages/system.threading.tasks.dataflow/4.11.0/system.threading.tasks.dataflow.4.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

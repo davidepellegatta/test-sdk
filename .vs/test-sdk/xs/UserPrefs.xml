@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{D56DF9C5-C6D0-4A62-A422-70BC2694E303}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test-sdk/Dockerfile">
+    <Files>
+      <File FileName="test-sdk/Program.cs" Line="63" Column="1" />
+      <File FileName="test-sdk/nlog.config" Line="6" Column="57" />
+      <File FileName="test-sdk/Dockerfile" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="test-sdk" expanded="True">
+            <Node name="docker-compose" expanded="True" />
+            <Node name="test-sdk" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.test-sdk PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
